@@ -1,0 +1,12 @@
+transformers>=4.45.0
+qwen-vl-utils
+torch>=2.3.0
+torchvision
+pillow
+numpy
+huggingface_hub
+lottie
+cairosvg
+imageio[ffmpeg]
+imageio-ffmpeg
+scikit-learn
