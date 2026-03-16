@@ -7,10 +7,12 @@ Generate, edit, and export Lottie animations from Text, Image, and Video inputs 
 ## 🚀 Key Features
 
 - **Consolidated Hub Architecture**: 28+ specialized features merged into 9 powerful, intuitive nodes.
-- **Intel Arc Optimization**: Native XPU support, `bfloat16` precision, IPEX layout optimizations, and `torch.compile` support.
-- **Aggressive VRAM Management**: Surgical memory offloading ensures the 15.2GB model runs smoothly on 16GB hardware.
+- **Custom UI Theme & UX**: Features a custom "Solarized" UI theme, dynamic auto-hiding widgets to reduce clutter, and a live VRAM Heatmap.
+- **Intel Arc & Universal Compatibility**: Heavily optimized for **Intel Arc A770 (16GB)** with IPEX and SDPA attention, but includes graceful fallbacks for **CUDA (Nvidia)** and **MPS (Apple Silicon)**.
+- **Aggressive VRAM Management**: Surgical memory offloading utilizes your System RAM (ideal for 64GB+ DDR4 setups) to ensure the 15.2GB model runs smoothly on 16GB GPUs.
 - **Multimodal Hub**: Seamlessly switch between Text-to-Lottie, Image-to-Lottie, and Video-to-Lottie in a single node.
 - **Instant Editor**: Tweak colors, speed, and canvas size or merge layers instantly without re-running the AI model.
+- **Quick Export Visualizer**: Interactive web player features "One-Click" buttons to instantly Copy Code or Download JSON directly from the ComfyUI canvas.
 - **Professional Export**: Export to Image Sequences, Masks, MP4 Video, SVG, or Game Engine SpriteSheets.
 - **Creative Suite**: Built-in Prompt Optimizers, Style Libraries, and Game UI presets.
 
