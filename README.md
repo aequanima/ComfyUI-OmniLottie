@@ -1,19 +1,32 @@
-# ComfyUI-OmniLottie
+# ComfyUI-OmniLottie (v2.0)
 
-A fully featured suite of custom nodes for **OmniLottie**, an end-to-end multimodal Lottie generator. Generate high-quality vector animations from Text, Image, and Video inputs directly in ComfyUI.
+A professional, high-performance suite of ComfyUI custom nodes for **OmniLottie**, the state-of-the-art multimodal vector animation generator. 
 
-Optimized for **Intel Arc A770 (16GB)** and XPU hardware.
+Generate, edit, and export Lottie animations from Text, Image, and Video inputs with a streamlined, user-centered design optimized for the **Intel Arc A770 (16GB)**.
 
-## Features
+## 🚀 Key Features
 
-- **Multimodal Generation**: Text-to-Lottie, Image-to-Lottie, and Video-to-Lottie.
-- **Intel Arc Optimization**: Native XPU support, aggressive VRAM management (15.2GB model on 16GB VRAM), and optional IPEX acceleration.
-- **Interactive Visualizer**: A custom web player to see and play your animations within the ComfyUI interface.
-- **Professional Toolkit**: Composition merging, canvas resizing, color skinning, and sprite sheet packing.
-- **Game Dev Ready**: Extract collision boxes and export frame-accurate sprite sheets for Unity, Godot, and more.
-- **Automated Setup**: One-click model downloading from Hugging Face and automatic script fetching from GitHub.
+- **Consolidated Hub Architecture**: 28+ specialized features merged into 9 powerful, intuitive nodes.
+- **Intel Arc Optimization**: Native XPU support, `bfloat16` precision, IPEX layout optimizations, and `torch.compile` support.
+- **Aggressive VRAM Management**: Surgical memory offloading ensures the 15.2GB model runs smoothly on 16GB hardware.
+- **Multimodal Hub**: Seamlessly switch between Text-to-Lottie, Image-to-Lottie, and Video-to-Lottie in a single node.
+- **Instant Editor**: Tweak colors, speed, and canvas size or merge layers instantly without re-running the AI model.
+- **Professional Export**: Export to Image Sequences, Masks, MP4 Video, SVG, or Game Engine SpriteSheets.
+- **Creative Suite**: Built-in Prompt Optimizers, Style Libraries, and Game UI presets.
 
-## Installation
+## 🛠️ The Node Suite
+
+1. **Model Manager**: Handles automatic downloading and advanced hardware toggles.
+2. **Generator**: The multimodal engine for all generation and batching tasks.
+3. **Prompt Crafter**: Refines simple ideas into motion-optimized VLM instructions.
+4. **Editor**: Instant property modification and layer composition.
+5. **Exporter**: The rendering hub for all vector and raster formats.
+6. **Utility Hub**: Hardware profiling, cache clearing, and local file loading.
+7. **Visualizer**: Real-time interactive web player for instant inspection.
+8. **Image to Palette**: Extract dominant colors to sync animations with source art.
+9. **Save Lottie**: Standardized JSON output node.
+
+## 📦 Installation
 
 1. Clone this repository to `ComfyUI/custom_nodes/`.
 2. Install dependencies:
@@ -22,7 +35,7 @@ Optimized for **Intel Arc A770 (16GB)** and XPU hardware.
    ```
 3. Restart ComfyUI.
 
-## Credits
+## 👥 Credits
 
 - **Author**: [aequanima](https://github.com/aequanima)
 - **Model**: [OpenVGLab OmniLottie](https://github.com/OpenVGLab/OmniLottie)
