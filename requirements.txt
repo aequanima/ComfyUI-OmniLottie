@@ -10,3 +10,5 @@ cairosvg
 imageio[ffmpeg]
 imageio-ffmpeg
 scikit-learn
+bitsandbytes
+accelerate
